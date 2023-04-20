@@ -5,7 +5,7 @@ Hey!, This time we had overwhelming response to the project. Thanks!
 So, We had to test people on their existing C++ programming skills. 
 
 Here are the rules: 
-1. There are 2 questions in this directory of the github repository. You are supposed to solve **one** of them using C++ in order for us to select you. 
+1. There are 2 questions in this directory of the github repository. You are supposed to solve **any one** of them using C++ in order for us to select you. 
 2. You are supposed to submit 2 files regarding the question that you had solved:
     -  One is **code-file** in the following naming format `<rollnumber>_<No>.cpp`
         where <rollnumber> is supposed to be your name (*one* word please !) and the <no> is the problem number . That is 
