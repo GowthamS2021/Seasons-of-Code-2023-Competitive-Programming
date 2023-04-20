@@ -1,0 +1,26 @@
+# Matching
+
+An **integer template** is a string consisting of digits and/or question marks.
+A positive (strictly greater than 0) integer matches the integer template if it is possible to replace every question mark in the template with a digit in such a way that we get the decimal representation of that integer without any leading zeroes.
+
+For example:
+1. 42 matches 4?;
+2. 1337 matches ????;
+3. 1337 matches 1?3?;
+4. 1337 matches 1337;
+5. 3 does not match ??;
+6. 8 does not match ???8;
+7. 1337  does not match 1?7.
+You are given an integer template consisting of at most 5 characters. Calculate the number of positive (strictly greater than 0 ) integers that match it.
+
+# Input
+The first line contains one integer t (an number between 1 to 20000) — the number of test cases.
+
+Each test case consists of one line containing the string s of length atmost 5, consisting of digits and/or question marks — the integer template for the corresponding test case.
+For sample input, see the input.txt file in the same directory
+
+# Output
+For each test case, print one integer — the number of positive (strictly greater than 0) integers that match the template.
+For a sample Output, see the output.txt file in the same directory, it has the answers for the sample input given in input.txt
+
+
