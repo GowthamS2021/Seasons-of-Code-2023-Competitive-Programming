@@ -1,0 +1,1 @@
+If the integer template has '0' as the first digit, there are no solutions, otherwise there can be solutions. Each '?' has 10 possible ways to be filled, except when it's the first digit, which has only 9 ways to be filled as it can't be '0'. 

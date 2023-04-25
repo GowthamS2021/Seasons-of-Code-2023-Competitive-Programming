@@ -1,0 +1,9 @@
+The solution to the problem statement is quite straightforward,it uses our logic from PnC to find the number of possible numbers such that xyz conditons:
+
+If first character is a ? it can be filled with 1-9 so m=9
+If the first character is a zero it does not fit into the valid criteria and hence m=0 
+
+A question mark at any other location can be filled with 0-9 so m=m*10
+Characters that are not a ? then m=m*1 as the box is fixed
+
+The output is stored in an array of lenght being the first input ie the number of testcases.

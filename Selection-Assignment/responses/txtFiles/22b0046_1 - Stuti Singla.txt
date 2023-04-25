@@ -1,0 +1,1 @@
+I used character arrays to traverse through the string and then it was a simple problem of counting and comparing.

@@ -1,0 +1,2 @@
+I solved this by starting from n and applied inverse functions of spells by using recursive function in which every call adds 1 or 2 to string according to spell it used and finally printed string and the number of steps used is obtained by s.length function.
+The impossibility is solved by just allowing oddnumbers into function.

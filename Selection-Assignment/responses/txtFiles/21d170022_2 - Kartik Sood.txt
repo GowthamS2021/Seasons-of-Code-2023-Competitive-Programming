@@ -1,0 +1,4 @@
+First observation was a even number cannot be reached as both operation produce odd number every time.
+Then I checked in reverse order to get the series of operation through which the number must have been reached. 
+If (n+1)/2 was odd then 2x-1 was used else 2x+1 was used. Then number was updated to the lower number used to reach it [(n+1)/2 or (n-1)/2] and process was repeated till we reach number 1. Number of operation and their sequence in reverse order was printed as we started backwards.
+If 1 is not reached in 40 steps then print -1.

@@ -1,0 +1,5 @@
+Candy Problem:
+
+	first we read the number of test cases as we enter that in first line in our input. then for each test case we take a input and check whether it is even or odd. if it is even then it return -1 be cause from starting 1 and then doing 2n+1 or 2n-1 it is impossible to get even number.
+
+	Now if entered number is odd then, the function creates a vector "v" and repeatedly divides "n" by 2 until "n" becomes 1. During each division, the function checks if "n" is odd (using the bitwise AND operator with 1) and appends 2 (i.e 2x-1) to the vector "v" if it is, or 1 (ie. 2x+1) otherwise. Finally, the function outputs the size of the vector "v" and its contents in reverse order.(desired output)

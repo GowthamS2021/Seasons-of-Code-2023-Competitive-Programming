@@ -1,0 +1,6 @@
+Q2 concept 
+First, I have introduced an integer array and divided it into 2 cases
+Case1- (even) output will be -1 as it can’t be represented as the sum of odd numbers
+Case2-(odd) here if we will divide the int array by 2 and if quotient comes even, then we have
+to represent the number of the form 2*n-1 (method 1 approach) because we need n to be odd
+  to carry the process again & again until  int array becomes 1.If quotient comes odd then we will use method 2 to represent it.

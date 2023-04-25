@@ -1,0 +1,12 @@
+I approached this problem following way:
+
+After carefully observing , I found out that this program returns -1 for all even values of n. Moreover , it returns 0 if n = 1.
+Now , if n is odd:
+divide n by 2 repeatedly till n becomes equal to 1. If after each division , the value of n is found out to be odd, then spell 2 was used to get that value of n. If value of n is found to be even , then spell 1 was used. Also increase spell_count after each iteration.
+
+for example: n = 13 
+ 1. when we divide 13 by 2 , we get 6 , which is an even no. So insert 1 to the vector declared, using push_back() command. Sum = 1.
+ 2. now n = 6. divide 6 by 2 to get 3 , which is an odd no. So inset 2 into the vector using push_back() command. Sum = 2.
+ 3. now n = 3. Divide 3 by 2 to get 1, which is an odd no. So inset 2 into the vector using push_back() command. Sum = 3
+ 4. now n = 1, so loop terminates.
+ 5. print Sum and then print the vector in reverse order.

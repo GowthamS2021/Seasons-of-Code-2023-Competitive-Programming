@@ -1,0 +1,32 @@
+This problem is about candy. Initially, you only have 1 candy, and you want to have exactly n candies.
+
+You can use the two following spells in any order at most 40 times in total.
+
+Assume you have x candies now. If you use the first spell, then x candies become 2x-1 candies.
+Assume you have x candies now. If you use the second spell, then x candies become 2x+1 candies.
+
+1) look in this question 
+	n=even number not possible!! as 2x+1 & 2x-1 will always be an odd numbers i.e. so you can't get even no: of candies by starting from 1 and by using spell1 and spell2;
+2 n== odd no 
+	since i already told 2x+1 & 2x-1 will always be an odd number so so you can get even no: of candies by starting from 1 and by using spell1 and spell2;
+
+basically what I have done is :
+1) declared a function and later call it the main()
+2)while loop
+3)used array to store the  spell no
+4)used if -else conditions
+5)used the concept of array reversing..
+
+basicaly we are finding the spell no and its order in order to reach the user input amount of candies starting from 1;
+
+
+ALSO NOTE THAT: in this semester we have been taught c programming instead of c++ under the course CS101 , So you may find the code is written in c format,
+I am not used to some of the c++ terms , such as vectors etc.. but I can do it ,because of time constraint and my midsems are going on , I am writing in this format,
+Do let me know if it isn't acceptable...
+sorry for inconvenience 
+
+Aditya Kumar Choudhary 
+22b2437
+
+
+	

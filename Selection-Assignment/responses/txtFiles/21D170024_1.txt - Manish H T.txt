@@ -1,0 +1,7 @@
+﻿So in the given problem statement they had given us the conditions for an integer template, then we had to get the number of sample cases from the user and also the input in each of them one by one.
+The aim was to find how many integers were formed according to the given conditions and user input in each test case.
+So I have used a nested loop for solving the problem. Initially, I took all the inputs necessary for the circle and took the required number of cases
+Then in the 1st loop, I took the string and then its length, length was necessary for the 2nd loop.
+Inside the 2nd loop I checked according to the given condition, then after the end of the 2nd loop I printed the number of integers that satisfy
+I have used the break in 2nd loop so that it doesn’t proceed further if the value at st[0] was found to be 0
+I have also initialized the value of x=1 at beginning of 1st loop each time.

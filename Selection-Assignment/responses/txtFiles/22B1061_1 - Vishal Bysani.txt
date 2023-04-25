@@ -1,0 +1,2 @@
+The problem was pretty straightforward. If the question mark occurs at the beginning of a template, then the possibilities would be 9(excluding 0), and if it occurs later, then possibilities would be 10.
+Also if the template begins with 0, then it is not considered valid, since it has leading zeroes.

@@ -1,0 +1,1 @@
+The crux is that the first digit cannot be zero

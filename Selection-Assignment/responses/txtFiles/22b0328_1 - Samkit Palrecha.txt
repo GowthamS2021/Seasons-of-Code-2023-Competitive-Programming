@@ -1,0 +1,2 @@
+i traversed all the input integer templates stored in character arrays one by one and checked for all the possible cases such as leading 0s,
+? on the 1st position and/or at other positions, no ?s etc and gave the necessary conditions accordingly to get the correct output.

@@ -1,0 +1,32 @@
+﻿Problem 2 Candies
+
+
+I solved it with the bottom up approach of tracing the previous number of candies before using the spell.
+This could be done as there is a unique way in which any number can be produced provided use of spell 2 at first which is obvious as using spell 1 on 1 candy does nothing.
+Now the task remains to trace back the given number of candies to 3 and at the end add spell 2 to go to 1 candy.
+This is similar to the binary tree from 3 which produces every odd number only once.
+So all odd numbers will have a unique parent node.
+So tracking back the parent node of the current node is just what remains to solve.
+
+
+Here is the algorithm I used to trace back the parent node.
+
+
+if the current node is x then 
+1 if x+1 is divisible by 4 spell two was used before and the parent node can be traced by (x-1)/2
+2 if x-1 is divisible by 4 spell one was used before and the parent node can be traced by (x+1)/2
+
+
+Now the complete algorithm to solve the problem 
+
+
+1 given any number, check if it is divisible by 2. If yes give the output -1, else next.
+2 now trace back parent nodes till 3. Keep the record of the number of spells used and which spells used in order.
+3 add a spell two for parent node 1 for 3.
+4 display the number of spells and spell order in reverse order (because we traced it backwards).
+5. Do this for all test cases.
+
+
+The above algorithm works in O(log n) time where n is a test case.
+The space complexity is also O(log n) where n is a test case.
+This is due to the binary tree approach.

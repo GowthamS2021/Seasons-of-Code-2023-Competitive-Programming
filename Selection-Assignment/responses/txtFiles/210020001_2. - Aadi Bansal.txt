@@ -1,0 +1,18 @@
+The code defines a recursive function called "candies", which takes three parameters:
+
+an integer "n" representing the starting number of candies.
+an unsigned long long integer "k" representing the target number of candies.
+an integer "spells" representing the number of times the function has been called recursively.
+The function returns a boolean value: true if "n" is equal to "k" and "spells" is less than or equal to 40, and false otherwise.
+
+If "n" is greater than "k" or "spells" is greater than 40, the function returns false.
+
+If none of the above conditions are met, the function recursively calls itself twice, once with the argument "2 * n - 1" and once with "2 * n + 1", and increments "spells" by 1 each time.
+
+The main function takes input for the target number of candies, initializes the "spells" variable to 0, calls the "candies" function with the input values, and prints the result of the function.
+
+
+
+
+
+

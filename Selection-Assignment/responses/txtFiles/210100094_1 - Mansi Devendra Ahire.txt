@@ -1,0 +1,11 @@
+t number of cases
+first I took t as an input
+run a loop t times
+inside the loop : take a string as an input
+                  if first element of string is '0' then no integer +ve is matching hence answer zero for such case
+                  if first element of string is '?' then : count number of ? in the string except the first, let 
+                                                           that be c. ans = 10^c * 9
+                  if first element of string is niether 0 nor ?: count number of ? in the string, let that be c
+                                                                 ans = 10^c
+
+run another loop t times to print output using the array we used to store answers for each case.                 

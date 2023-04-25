@@ -1,0 +1,6 @@
+
+	The first line of the input is an integer "test_case" that represents the number of test cases. Each subsequent line contains a string "p" consisting of digits ('0'-'9') or question marks ('?'). The question marks can be replaced by any digit from '0' to '9'. The length of "p" is at most 100.
+
+	For each test case, the program calculates the number of possible strings that can match "p". Specifically, it counts the number of question marks in "p" and multiplies it by 9 if the first character of "p" is a question mark, or by 10 otherwise. The reason for this is that the first character cannot be zero, and there are nine possible digits for a question mark in the first position, while there are ten possible digits for any other position.
+
+	If the first character of "p" is '0', the program outputs 0 and exits. Otherwise, it outputs the number of possible strings for the current test case.

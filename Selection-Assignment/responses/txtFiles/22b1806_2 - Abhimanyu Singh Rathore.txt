@@ -1,0 +1,47 @@
+﻿Assignment For Selection
+
+
+Problem - 2
+  
+
+For the Second Problem for an input N, we can assume the problem is similar to finding the depth of a binary tree.
+And for that, I checked both the closest even numbers and took the which gave us an odd number after dividing by 2.
+And then would check if the number comes by applying the 1st or 2nd operation.
+
+
+Problem - 1
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t;
+    cin>>t;
+
+
+    for(int i=0;i<t;i++)
+    {
+        string a;
+        cin>>a;
+        int ans=1,cnst=0;
+        for(int j=0;j<a.length();j++)
+        {
+            if(a[0] == '0'){
+                ans = 0;
+                break;
+            }
+            else if(a[j] == '?' && j==0)
+                ans = ans*9;
+            else if(a[j] == '?' && j != 0)
+                ans = ans*10;
+            else
+                cnst++;
+        }
+        if(cnst == a.length())
+            ans=0;
+        cout<<ans<<endl;
+    }
+}
+
+
+For the First problem, we just traversed the string, checked for question marks, and multiplied the answer by nine if there was a question mark at the first position; otherwise, we multiplied by 10.
