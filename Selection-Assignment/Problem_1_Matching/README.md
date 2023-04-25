@@ -23,6 +23,5 @@ For sample input, see the input.txt file in the same directory
 For each test case, print one integer — the number of positive (strictly greater than 0) integers that match the template.
 For a sample Output, see the output.txt file in the same directory, it has the answers for the sample input given in input.txt
 
-(Credits : Codeforces)
 
 
